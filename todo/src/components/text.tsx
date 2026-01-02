@@ -1,6 +1,7 @@
 import React from "react";
 
 // O type está indicando que eu quero apenas o tipo e não a variável em si no runtime 
+// cva → é a função principal da lib, VariantProps → é um tipo padrão exportado pela lib da class-variance-authority, você só está importando.
 import { cva, type VariantProps } from "class-variance-authority";
 
 // Variações de estilo
